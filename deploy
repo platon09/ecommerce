@@ -1,0 +1,6 @@
+virtualenv -p python3 .venv
+. ./.venv/bin/activate
+python3 -m pip install -r requirements.txt
+sudo -u postgres createuser market_user
+sudo -u postgres createdb market_db -Omarket_user
+./manage.py migrate

@@ -1,0 +1,13 @@
+Django==3.2.8
+djangorestframework==3.12.4
+Pillow==8.3.2
+psycopg2-binary==2.9.1
+drf-yasg==1.20.0
+openpyxl==3.0.9
+channels==3.0.4
+requests==2.26.0
+bs4==0.0.1
+django-image-cropping==1.6.1
+easy-thumbnails==2.7.2
+django-filter==21.1
+django-cors-headers==3.10.0
